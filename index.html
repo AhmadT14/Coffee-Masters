@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="brand">
+        <img
+          src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+          alt="coffee masters logo"
+          class="logo"
+        />
+        Coffee Masters
+      </h1>
+    </header>
+    <div class="container">
+      <section class="section order">
+        <h2 class="order-section-title title">ITEMS</h2>
+        <ul class="list items">
+          <li class="list item-details">
+            <div class="item-quntity">1x</div>
+            <div class="item-name">Cappucino</div>
+            <div class="item-price">$6.00</div>
+            <ul class="list item-extras">
+              <li class="item-extra">Light Foam</li>
+            </ul>
+          </li>
+          <li class="list item-details">
+            <div class="item-quntity">1x</div>
+            <div class="item-name">Cappucino</div>
+            <div class="item-price">$7.90</div>
+            <ul class="list item-extras">
+              <li class="item-extra">Almond Milk</li>
+              <li class="item-extra">Double Espresso Shot</li>
+            </ul>
+          </li>
+          <li class="list item-details">
+            <div class="item-quntity">1x</div>
+            <div class="item-name">Croissant</div>
+            <div class="item-price">$5.37</div>
+            <ul class="list item-extras">
+              <li class="item-extra">Butter</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="payment">
+        <section class="section payment-name">
+          <h2 class="payment-title title">NAME</h2>
+          <div class="input">
+            <label class="label" for="name-for-order">Name for order</label>
+            <input type="text" id="name-for-order" />
+          </div>
+        </section>
+        <section class="section payment-card">
+          <h2 class="payment-title title">PAYMENT</h2>
+          <div class="input card">
+            <label class="label" for="card-number">Card number</label>
+            <input type="text" id="card-number" />
+          </div>
+          <div class="input cvv">
+            <label class="label" for="cvv">Card number</label>
+            <input type="text" id="cvv" />
+          </div>
+        </section>
+      </section>
+    </div>
+    <div class="calculations">
+      <ul class="list calculations-text">
+        <li class="text">Subtotal:</li>
+        <li class="text">Tax:</li>
+        <li class="text">Total:</li>
+      </ul>
+      <ul class="list calculations-numbers">
+        <li class="number">$19.27</li>
+        <li class="number">$0.96</li>
+        <li class="number">$20.23</li>
+      </ul>
+    </div>
+    <button class="finish">place order</button>
+  </body>
+</html>
